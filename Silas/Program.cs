@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Silas.Sight;
+using System;
 
 namespace Silas
 {
@@ -6,7 +7,8 @@ namespace Silas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var eye = new Eye();
+            eye.GetVisionStream();
         }
     }
 }

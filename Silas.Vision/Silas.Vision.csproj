@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Accord.DirectSound" Version="3.8.0" />
+    <PackageReference Include="Accord.Video" Version="3.8.0" />
+    <PackageReference Include="Accord.Video.DirectShow" Version="3.8.0" />
+  </ItemGroup>
+
+</Project>
